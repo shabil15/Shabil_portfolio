@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://cal.com/victorwilliams/30min"
+            href="https://cal.com/mohammed-shabil/30min"
             target="_blank"
             aria-label="BOOK A CALL"
           >
@@ -34,7 +34,7 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://github.com/shabil15"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -46,7 +46,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.linkedin.com/in/shabildev"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -58,7 +58,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://twitter.com/mohammedshabil"
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -66,19 +66,19 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              TW
+              X
             </motion.p>
           </Link>
           <Link
-            href="https://contra.com/victorwilliams"
+            href="https://instagram.com/ft.shabii/"
             target="_blank"
-            aria-label="View Contra Profile"
+            aria-label="View Instagram Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              CO
+              IG
             </motion.p>
           </Link>
         </div>
@@ -89,7 +89,7 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <AnimatedWords
-            title="VICTOR WILLIAMS"
+            title="SHABIL MOHAMMED"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
@@ -99,8 +99,8 @@ const Hero = () => {
             <Image
               src={profile}
               priority
-              alt="Victor's headshot"
-              data-blobity-tooltip="Giga Chad"
+              alt="Shabil's headshot"
+              data-blobity-tooltip="Full Stack Developer"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
@@ -118,16 +118,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Web Designer, prev at{" "}
-            <Link
-              href="https://www.korahq.com/"
-              target="_blank"
-              className="underline underline-offset-2 hover:no-underline"
-              aria-label="Kora Website"
-            >
-              Kora,
-            </Link>{" "}
-            currently available for work.
+            Full Stack Developer specializing in MERN stack, building scalable web applications and innovative solutions.
           </p>
         </motion.div>
 
@@ -136,8 +127,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lagos,
-            Nigeria.
+            Passionate about creating efficient, user-centric applications using modern web technologies.
           </p>
         </motion.div>
       </div>
