@@ -104,7 +104,7 @@ const ProjectCard = ({
       <div
         className={`absolute text-white  ${
           !(id % 2 === 0)
-            ? "right-0 top-32 mr-0 ml-10 md:right-0 md:ml-0 lg:right-0 lg:top-60  lg:mr-4"
+            ? "right-0 top-32 mr-0 ml-12 md:right-0 md:ml-0 lg:right-0 lg:top-60  lg:mr-4"
             : "left-10 top-32 ml-0 md:mr-12 lg:top-52 lg:ml-4"
         } mb-10  md:mb-16 lg:mb-14 `}
       >
@@ -119,7 +119,7 @@ const ProjectCard = ({
         <AnimatedBody
           text={description}
           className={
-            "mt-4 w-[90%] max-w-[457px] text-[16px] font-semibold text-[#95979D] "
+            "mt-4 w-[90%] max-w-[430px] text-[16px] font-semibold text-[#95979D] "
           }
         />
         <div className="mt-9 flex gap-4">
