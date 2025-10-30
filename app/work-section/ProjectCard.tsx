@@ -106,7 +106,7 @@ const ProjectCard = ({
           !(id % 2 === 0)
             ? "right-0 top-32 mr-0 ml-12 md:right-0 md:ml-0 lg:right-0 lg:top-60  lg:mr-4"
             : "left-10 top-32 ml-0 md:mr-12 lg:top-52 lg:ml-4"
-        } mb-10  md:mb-16 lg:mb-14 `}
+        } mb-10  md:mb-16 lg:mb-14`}
       >
         <AnimatedTitle
           text={name}
@@ -126,6 +126,7 @@ const ProjectCard = ({
           {technologies.map((tech, id) => (
             <AnimatedTitle
               text={tech}
+              
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
               key={id}

@@ -15,7 +15,7 @@ export const contactInfo = {
 };
 
 export const externalLinks = {
-  resume: process.env.NEXT_PUBLIC_RESUME_URL || "https://drive.google.com/file/d/1Mmwl-FRGPm5QVe3AjtukJr_Jpc366Ear/view",
+  resume: process.env.NEXT_PUBLIC_RESUME_URL || "https://drive.google.com/file/d/1gq3E2lqEJlp79xu-tdlMce0gFzboMp_v/view?usp=sharing",
   portfolio: process.env.NEXT_PUBLIC_PORTFOLIO_URL || "https://shabil-portfolio.vercel.app",
   projectGithubBase: process.env.NEXT_PUBLIC_PROJECT_GITHUB_BASE || "https://github.com/shabil15",
   medium: process.env.NEXT_PUBLIC_MEDIUM_URL || "https://medium.com/@mohammedshabil",
