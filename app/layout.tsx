@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "www.mohammedshabil.com",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "",
         width: 1200,
         height: 630,
         alt: "Mohammed Shabil — Full Stack Developer",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     creator: "mohammedshabil",
     creatorId: "0000000000000000000",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "",
     ],
   },
   robots: {
