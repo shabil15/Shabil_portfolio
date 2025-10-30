@@ -3,15 +3,15 @@
 
 export const socialLinks = {
   github: process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/shabil15",
-  linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/in/mohammed-shabil-tk-5162b1312",
-  twitter: process.env.NEXT_PUBLIC_TWITTER_URL || "https://twitter.com/mohammedshabil",
-  instagram: process.env.NEXT_PUBLIC_INSTAGRAM_URL || "https://instagram.com/mohammedshabil",
+  linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/in/shabildev",
+  twitter: process.env.NEXT_PUBLIC_TWITTER_URL || "https://x.com/shabilmohmd",
+  instagram: process.env.NEXT_PUBLIC_INSTAGRAM_URL || "https://instagram.com/ft.shabii",
   cal: process.env.NEXT_PUBLIC_CAL_URL || "https://cal.com/mohammed-shabil/30min",
 };
 
 export const contactInfo = {
   email: process.env.NEXT_PUBLIC_EMAIL || "mohammedshabil15@gmail.com",
-  phone: process.env.NEXT_PUBLIC_PHONE || "+91 1234567890",
+  phone: process.env.NEXT_PUBLIC_PHONE || "+919562321211",
 };
 
 export const externalLinks = {
