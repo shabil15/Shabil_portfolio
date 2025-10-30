@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import AnimatedBody from "../animations/AnimatedBody";
+import { socialLinks } from "../config/links";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -19,7 +20,7 @@ const Footer = () => {
             className={"m-0 p-0"}
           />
           <Link
-            href="https://github.com/shabil15"
+            href={socialLinks.github}
             target="_blank"
             aria-label="Shabil's GitHub Profile"
           >

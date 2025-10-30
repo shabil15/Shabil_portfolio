@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
 import profile from "../../public/profile.webp";
+import { socialLinks } from "../config/links";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://cal.com/mohammed-shabil/30min"
+            href={socialLinks.cal}
             target="_blank"
             aria-label="BOOK A CALL"
           >
@@ -34,7 +35,7 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/shabil15"
+            href={socialLinks.github}
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -46,7 +47,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/shabildev"
+            href={socialLinks.linkedin}
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -58,7 +59,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/mohammedshabil"
+            href={socialLinks.twitter}
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -70,7 +71,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://instagram.com/ft.shabii/"
+            href={socialLinks.instagram}
             target="_blank"
             aria-label="View Instagram Profile"
           >
