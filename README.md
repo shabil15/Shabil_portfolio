@@ -5,7 +5,6 @@
 ![Portfolio Banner](https://img.shields.io/badge/Portfolio-Mohammed_Shabil-0E1016?style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-13.2.3-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue?style=for-the-badge&logo=typescript)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **A modern, responsive, and animated portfolio website showcasing my journey as a Full Stack Developer**
 
