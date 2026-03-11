@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import SpeedInsightsWrapper from "./components/SpeedInsightsWrapper";
 
 const syne = Syne({
   subsets: ["latin"],
@@ -96,6 +97,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       >
         {children}
         <Analytics />
+        <SpeedInsightsWrapper />
       </body>
     </html>
   );
